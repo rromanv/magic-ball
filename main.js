@@ -29,7 +29,7 @@ const messages = [
 
 const createAnswer = () => {
   const answerElement = document.createElement('p')
-  answerElement.classList.add('fade', 'text-center', 'fs-1', 'fw-bold', 'bg-white', 'text-danger', 'px-2', 'py-3', 'rounded', 'w-50', 'position-absolute', 'top-50', 'start-50', 'translate-middle')
+  answerElement.classList.add('fade', 'text-center', 'fs-3', 'fw-bold', 'bg-white', 'text-danger', 'px-2', 'py-3', 'rounded', 'w-50', 'position-absolute', 'top-50', 'start-50', 'translate-middle')
 
   const seed = Math.random() * messages.length - 1
   const randomIndex = seed > 0 ? Math.floor(seed) : Math.ceil(seed)
