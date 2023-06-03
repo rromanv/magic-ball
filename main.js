@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const ballContainer = document.querySelector('#ball-container')
 const question = document.querySelector('#question')
 const shakeButton = document.querySelector('#shake-button')
@@ -65,3 +66,5 @@ question.addEventListener('keyup', (e) => {
 
   if (e.key === 'Enter' && checkQuestion()) shakeBall()
 })
+=======
+>>>>>>> parent of 36d04b7 (finished)
